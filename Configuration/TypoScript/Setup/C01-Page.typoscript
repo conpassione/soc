@@ -1,0 +1,5 @@
+page {
+  includeCSS {
+    soccss = EXT:soc/Resources/Public/Css/Layout.css
+  }
+}

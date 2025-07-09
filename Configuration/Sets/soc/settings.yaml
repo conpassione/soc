@@ -1,0 +1,10 @@
+# default settings, should be overwritten
+
+TCEpage:
+  author: 'soc'
+  author_email: info@soc.ch
+  author_phone: '+41790000000'
+  org_name: 'soc'
+  org_logo: 'EXT:soc/Resources/Public/Images/logo_cp_core_G35_black_mit.png'
+
+# Das ist ein Test
