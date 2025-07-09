@@ -1,5 +1,5 @@
 name: conpassione/soc
-label: Test
+label: SOC-Layout
 dependencies:
   - conpassione/cpdevsite
   - typo3/form
