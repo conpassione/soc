@@ -113,7 +113,7 @@
   .headercontent {
     display: grid;
     grid-auto-flow: column;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     container-type: inline-size;
     container-name: headercontent;
