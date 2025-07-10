@@ -1,0 +1,31 @@
+/* page */
+@use '../settings' as *;
+
+@layer socstyles {
+
+  .headercontent {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    align-items: center;
+    container-type: inline-size;
+    container-name: headercontent;
+    position: relative;
+  }
+
+  .logo {
+    position: relative;
+    top: 0;
+    width: min(200px, 40vw);
+    padding: 0;
+    background-color: var(--clr-logobg);
+
+    a {
+      z-index: 2;
+    }
+    svg {
+      fill: var(--clr-logo);
+    }
+  }
+
+}

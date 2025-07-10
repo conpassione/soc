@@ -1,10 +1,10 @@
 # default settings, should be overwritten
 
 TCEpage:
-  author: 'soc'
-  author_email: info@soc.ch
+  author: 'StarOfCreation'
+  author_email: info@starofcreation.ch
   author_phone: '+41790000000'
-  org_name: 'soc'
-  org_logo: 'EXT:soc/Resources/Public/Images/logo_cp_core_G35_black_mit.png'
+  org_name: 'StarOfCreation'
+  org_logo: 'EXT:soc/Resources/Public/Images/starofcreation_journey_to_soul_logo.png'
 
 # Das ist ein Test
