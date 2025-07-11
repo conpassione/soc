@@ -1,0 +1,30 @@
+#!/bin/zsh
+
+# Script upgrade TYPO3 Installation
+
+echo ""
+echo "Upgrade actual TYPO3 Installation by composer"
+echo ""
+echo "Go to ./packages"
+echo "Issue git pull for each extension"
+
+cd packages || exit
+
+for f in *; do
+  if [ -d "$f" ]; then
+      cd $f || exit
+      git pull
+      cd ..
+  fi
+done
+cd ..
+
+if [ -d ".ddev" ]; then
+    ddev composer upgrade -w
+    ddev typo3 cache:flush
+    ddev typo3 language:update
+else
+    composer upgrade -w
+    vendor/bin/typo3 cache:flush
+    vendor/bin/typo3 language:update
+fi
